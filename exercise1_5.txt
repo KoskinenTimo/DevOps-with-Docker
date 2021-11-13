@@ -1,0 +1,77 @@
+Script started on 2021-11-13 14:10:44+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="99" LINES="51"]
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker images ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker images ls[K[K[K
+REPOSITORY                          TAG       IMAGE ID       CREATED        SIZE
+ubuntu                              latest    ba6acccedd29   4 weeks ago    72.8MB
+fav_distro                          bionic    5a214d77f5d7   6 weeks ago    63.1MB
+ubuntu                              18.04     5a214d77f5d7   6 weeks ago    63.1MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   8 months ago   15.7MB
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker
+[K]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker run devopsdockeruh/simple-web-service:alpine[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K-it devopsdockeruh/simple-web-service:alpine
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker container ls
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker container lsrun -it devopsdockeruh/simple-web-service:alpine
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-devopsdockeruh/simple-web-service:alpine[A
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdevopsdockeruh/simple-web-service:alpine[A
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C devopsdockeruh/simple-web-service:alpine[A
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+07f489fc999427a5b3fc8073d3e54d51e1eb19677da6fef44fd6d84c4ca72e9a
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker exec 07 sh
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker exec 07 sh[K[Kbash
+OCI runtime exec failed: exec failed: container_linux.go:380: starting container process caused: exec: "bash": executable file not found in $PATH: unknown
+
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker exec 07 bash[K[K[K[Ksh[1@-[1@i[1@t[1@ 
+/usr/src/app # [6n
+/usr/src/app # [Jps aux
+PID   USER     TIME  COMMAND
+    1 root      0:00 /usr/src/app/server
+   26 root      0:00 sh
+   33 root      0:00 ps aux
+/usr/src/app # [6nls
+[1;32mserver[m    [0;0mtext.log[m
+/usr/src/app # [6ntail -f ./text.log
+2021-11-13 12:14:01 +0000 UTC
+2021-11-13 12:14:03 +0000 UTC
+2021-11-13 12:14:05 +0000 UTC
+2021-11-13 12:14:07 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-13 12:14:09 +0000 UTC
+2021-11-13 12:14:11 +0000 UTC
+2021-11-13 12:14:13 +0000 UTC
+2021-11-13 12:14:15 +0000 UTC
+2021-11-13 12:14:17 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-13 12:14:19 +0000 UTC
+2021-11-13 12:14:21 +0000 UTC
+2021-11-13 12:14:23 +0000 UTC
+2021-11-13 12:14:25 +0000 UTC
+2021-11-13 12:14:27 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-13 12:14:29 +0000 UTC
+2021-11-13 12:14:31 +0000 UTC
+2021-11-13 12:14:33 +0000 UTC
+2021-11-13 12:14:35 +0000 UTC
+^C
+/usr/src/app # [6nexit
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# exit
+exit
+
+Script done on 2021-11-13 14:14:43+02:00 [COMMAND_EXIT_CODE="130"]

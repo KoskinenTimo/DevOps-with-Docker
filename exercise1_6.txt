@@ -1,0 +1,168 @@
+Script started on 2021-11-13 14:16:10+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="99" LINES="10"]
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker run -it devopsdockeruh/pull_exercise
+Unable to find image 'devopsdockeruh/pull_exercise:latest' locally
+latest: Pulling from devopsdockeruh/pull_exercise
+
+[1A[2K
+8e402f1a9c57: Pulling fs layer 
+[1B
+[1A[2K
+5e2195587d10: Pulling fs layer 
+[1B
+[1A[2K
+6f595b2fc66d: Pulling fs layer 
+[1B
+[1A[2K
+165f32bf4e94: Pulling fs layer 
+[1B
+[1A[2K
+67c4f504c224: Pulling fs layer 
+[1B[1A[2K
+67c4f504c224: Waiting 
+[1B[2A[2K
+165f32bf4e94: Waiting 
+[2B[3A[2K
+6f595b2fc66d: Downloading   14.3kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  27.99kB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading  425.2kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  510.3kB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading  216.3kB/21.6MB
+[4B[3A[2K
+6f595b2fc66d: Downloading  1.006MB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  936.3kB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading  899.4kB/21.6MB
+[4B[3A[2K
+6f595b2fc66d: Downloading  1.219MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Verifying Checksum 
+[3B[3A[2K
+6f595b2fc66d: Download complete 
+[3B[5A[2K
+8e402f1a9c57: Downloading  1.657MB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading  1.588MB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Downloading  2.247MB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading  2.276MB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Download complete 
+[5B[5A[2K
+8e402f1a9c57: Extracting  32.77kB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading  3.418MB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Extracting   98.3kB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading  4.791MB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Extracting  2.755MB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Pull complete 
+[5B[4A[2K
+5e2195587d10: Downloading  5.933MB/21.6MB
+[4B[2A[2K
+165f32bf4e94: Downloading     108B/108B
+[2B[2A[2K
+165f32bf4e94: Verifying Checksum 
+[2B[2A[2K
+165f32bf4e94: Download complete 
+[2B[4A[2K
+5e2195587d10: Downloading  7.281MB/21.6MB
+[4B[1A[2K
+67c4f504c224: Downloading     659B/9.267kB
+[1B[1A[2K
+67c4f504c224: Downloading  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Verifying Checksum 
+[1B[1A[2K
+67c4f504c224: Download complete 
+[1B[4A[2K
+5e2195587d10: Downloading  8.186MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  9.534MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   10.9MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  12.02MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  13.16MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   14.3MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  15.43MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   16.8MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  18.17MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  19.53MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  20.88MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Verifying Checksum 
+[4B[4A[2K
+5e2195587d10: Download complete 
+[4B[4A[2K
+5e2195587d10: Extracting  229.4kB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  3.211MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  6.423MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  10.09MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting   13.3MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  16.06MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting   17.2MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  18.58MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting   19.5MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  20.64MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  21.56MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting   21.6MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Pull complete 
+[4B[3A[2K
+6f595b2fc66d: Extracting  32.77kB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Extracting  1.332MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Extracting  1.332MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Pull complete 
+[3B[2A[2K
+165f32bf4e94: Extracting     108B/108B
+[2B[2A[2K
+165f32bf4e94: Extracting     108B/108B
+[2B[2A[2K
+165f32bf4e94: Pull complete 
+[2B[1A[2K
+67c4f504c224: Extracting  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Extracting  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Pull complete 
+[1BDigest: sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f
+Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
+[1G[0JGive me the password: [23Gbasics
+
+You found the correct password. Secret message is:
+"This is the secret message"
+
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# exit
+exit
+
+Script done on 2021-11-13 14:17:39+02:00 [COMMAND_EXIT_CODE="0"]

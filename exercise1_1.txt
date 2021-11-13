@@ -1,0 +1,10 @@
+Script started on 2021-11-12 23:42:18+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="201" LINES="21"]
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# exitCertUtil -hashfile kubectl.exe SHA256curl -LO "https://dl.k8s.io/v1.22.0/bin/windows/amd64/kubectl.exe.sha256"release/v1.22.0/bin/windows/amd64/kubectl.exe"[35Pdocker-compose -f docker-compose.yml upcd library/[K[K[K[K[K[K[K[K[K[K[K[Kdocker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                      PORTS     NAMES
+8a5adf7f7702   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 52 seconds ago             heuristic_sinoussi
+7af26e0e2fbb   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 52 seconds ago             zealous_burnell
+2be28b2340ff   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes                80/tcp    beautiful_moore
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# exit
+exit
+
+Script done on 2021-11-12 23:42:30+02:00 [COMMAND_EXIT_CODE="0"]

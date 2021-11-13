@@ -1,0 +1,37 @@
+Script started on 2021-11-13 00:17:40+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="99" LINES="21"]
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a[8Pexit[K[K[K[Kdocker run -it -d devopsdockeruh/simple-web-service:ubuntu
+c709a7df854646d217c0cd83668a1e3ebaa527204b182bb76e5d30b2b9ec50ab
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker exec -it c7 bas 
+h
+]0;root@c709a7df8546: /usr/src/approot@c709a7df8546:/usr/src/app# 
+[K]0;root@c709a7df8546: /usr/src/approot@c709a7df8546:/usr/src/app# tail -f ./text  .log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-12 22:19:22 +0000 UTC
+2021-11-12 22:19:24 +0000 UTC
+2021-11-12 22:19:26 +0000 UTC
+2021-11-12 22:19:28 +0000 UTC
+2021-11-12 22:19:30 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-12 22:19:32 +0000 UTC
+2021-11-12 22:19:34 +0000 UTC
+2021-11-12 22:19:36 +0000 UTC
+2021-11-12 22:19:38 +0000 UTC
+2021-11-12 22:19:40 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-12 22:19:42 +0000 UTC
+2021-11-12 22:19:44 +0000 UTC
+2021-11-12 22:19:46 +0000 UTC
+2021-11-12 22:19:48 +0000 UTC
+2021-11-12 22:19:50 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-12 22:19:52 +0000 UTC
+2021-11-12 22:19:54 +0000 UTC
+2021-11-12 22:19:56 +0000 UTC
+e 2021-11-12 22:19:58 +0000 UTC
+^C
+]0;root@c709a7df8546: /usr/src/approot@c709a7df8546:/usr/src/app# exit
+exit
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# exit
+exit
+
+Script done on 2021-11-13 00:20:09+02:00 [COMMAND_EXIT_CODE="130"]

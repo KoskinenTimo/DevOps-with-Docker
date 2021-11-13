@@ -1,0 +1,9 @@
+Script started on 2021-11-12 23:52:51+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="201" LINES="21"]
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# exitdocker ps -a[8Pexitdocker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# docker ps -a[8Pexitdocker ps -a[8Pexit[K[K[K[Kdocker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Dockerroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/DevOps-with-Docker# exit
+exit
+
+Script done on 2021-11-12 23:53:09+02:00 [COMMAND_EXIT_CODE="0"]
