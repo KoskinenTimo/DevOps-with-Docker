@@ -1,0 +1,22 @@
+version: '3.5'  
+
+services: 
+    back: 
+      build:
+        context: ./example-backend
+        dockerfile: Dockerfile
+      ports:
+      - 3001:3001
+      container_name: example-backend
+      environment:
+        - PORT=3001
+        - REQUEST_ORIGIN=http://localhost:5000
+    front: 
+      build:
+        context: ./example-frontend
+        dockerfile: Dockerfile
+      ports:
+      - 5000:5000
+      container_name: example-front
+      environment:
+        - REACT_APP_BACKEND_URL=http://localhost:3001

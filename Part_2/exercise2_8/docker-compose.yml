@@ -1,0 +1,48 @@
+version: '3.5'  
+
+services: 
+    back: 
+      build:
+        context: ./example-backend
+        dockerfile: Dockerfile
+      ports:
+      - 3001:3001
+      container_name: example-backend
+      environment:
+        - REDIS_HOST=redis
+        - PORT=3001
+        - REQUEST_ORIGIN=http://localhost:5000
+        - POSTGRES_HOST=db
+        - POSTGRES_USER=user
+        - POSTGRES_PASSWORD=password
+        - POSTGRES_DATABASE=postgresdb
+    front: 
+      build:
+        context: ./example-frontend
+        dockerfile: Dockerfile
+      ports:
+      - 5000:5000
+      container_name: example-front
+      environment:
+        - REACT_APP_BACKEND_URL=http://localhost:3001
+    redis:
+      image: redis
+      ports:
+        - "6379:6379"
+      volumes:
+        - ./example-backend/myredis/conf:/usr/local/etc/redis
+        - ./example-backend/redis_data:/data
+      container_name: example-redis
+    db:
+      image: postgres:13.2-alpine
+      restart: unless-stopped
+      volumes:
+        - database:/var/lib/postgresql/data
+      environment:
+        POSTGRES_USER: user
+        POSTGRES_PASSWORD: password
+        POSTGRES_DB: postgresdb
+      container_name: example-db
+
+volumes:
+  database:
