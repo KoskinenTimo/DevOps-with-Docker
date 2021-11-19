@@ -1,0 +1,3 @@
+I changed ENV variables to match with NGINX paths
+ENV REACT_APP_BACKEND_URL=http://localhost:8080/api
+ENV REQUEST_ORIGIN=http://localhost:8080

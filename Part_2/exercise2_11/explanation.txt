@@ -1,0 +1,15 @@
+https://github.com/KoskinenTimo/MOOC-Full-stack-open-2021/tree/master/osa7/bloglist_redux
+
+I created development environment where I you can just start it by going to link root above.
+Changes done in editor are moved to the container with the volumes. NGINX is used to route
+via localhost:8080 to api and client. Client location "/" needed settings for the header for 
+socket error, settings are:
+  proxy_http_version 1.1;
+  proxy_set_header Upgrade $http_upgrade;
+  proxy_set_header Connection "Upgrade";
+
+Client requires now ENV variable where the new localhost:8080/api. Added nodemon -L index.js"
+to api start because previously when troubleshooting this, it doesn't update changes without -L
+atleast in my environment. To get react to push changes to browser and containers, I used
+"start": "CHOKIDAR_USEPOLLING=true react-scripts start" as suggested in course Discord channel.
+
