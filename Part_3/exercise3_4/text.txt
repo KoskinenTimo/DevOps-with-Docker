@@ -1,0 +1,3 @@
+only RUN lines combined to one RUN:
+Front:566.33MB => 562.3MB
+Back:917.9MB => 914.1MB

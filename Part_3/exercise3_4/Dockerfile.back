@@ -1,0 +1,32 @@
+FROM ubuntu:18.04
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+ENV PATH=$PATH:/usr/local/go/bin
+ENV GOROOT=/usr/local/go
+ENV GOPATH=/root/package
+
+ENV PORT=3001
+
+ENV REQUEST_ORIGIN=http://localhost:8080
+
+RUN apt-get update && \
+    apt-get install -y wget && \
+    wget https://dl.google.com/go/go1.17.3.linux-amd64.tar.gz && \
+    tar -C /usr/local -xvzf go1.17.3.linux-amd64.tar.gz && \
+    rm -rf /go1.17.3.linux-amd64.tar.gz && \
+    apt-get install gcc make -y && \
+    go build && \
+    go test ./... && \
+    apt-get remove gcc make -y && \
+    apt-get remove wget -y && \
+    useradd -m appuser && \
+    chown appuser .
+    
+EXPOSE 3001
+
+USER appuser
+
+CMD [ "./server" ]

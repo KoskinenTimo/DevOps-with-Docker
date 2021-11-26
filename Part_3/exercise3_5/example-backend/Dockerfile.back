@@ -1,0 +1,26 @@
+FROM golang:1.16-rc-alpine
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+ENV PATH=$PATH:/usr/local/go/bin
+ENV GOROOT=/usr/local/go
+ENV GOPATH=/root/package
+
+ENV PORT=3001
+
+ENV REQUEST_ORIGIN=http://localhost:8080
+
+RUN apk add gcc make musl-dev && \
+    go build && \
+    go test ./... && \
+    apk del gcc make && \
+    adduser -S appuser && \
+    chown appuser .
+    
+EXPOSE 3001
+
+USER appuser
+
+CMD [ "./server" ]

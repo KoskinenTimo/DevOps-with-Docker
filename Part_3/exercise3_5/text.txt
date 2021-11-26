@@ -1,0 +1,11 @@
+Using node:16 instead of ubuntu:18.04:
+Front: 562.3MB => 1170MB
+
+Using golang:1.16 instead of ubuntu:18.04:
+Back: 914.1MB => 1070MB
+
+Using node:14-alpine instead of node:16:
+Front: 1170MB => 344.48MB
+
+Using golang:1.16-rc-alpine instead of golang:1.16:
+Back: 1070MB => 463.78MB
