@@ -1,0 +1,18 @@
+FROM golang:1.16 AS build
+
+WORKDIR $GOPATH/src/mypackage/myapp/
+COPY . .
+
+ENV PORT=3001
+
+ENV REQUEST_ORIGIN=http://localhost:8080
+
+RUN go get -d -v && \
+    go build -ldflags "-linkmode external -extldflags -static" -o /go/bin/server
+
+FROM scratch
+
+COPY --from=build /go/bin/server /go/bin/server
+
+ENTRYPOINT [ "/go/bin/server" ]
+

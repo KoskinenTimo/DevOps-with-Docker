@@ -1,5 +1,6 @@
 git clone https://github.com/KoskinenTimo/Unit7-React-Gallery-App clonedproject
 
+rm /clonedproject/Dockerfile
 echo -e "FROM node:16-alpine 
 \nWORKDIR /usr/src/app
 \nCOPY . .
@@ -9,5 +10,6 @@ echo -e "FROM node:16-alpine
 \nEXPOSE 3000
 \nCMD serve -s build" > ./clonedproject/Dockerfile
 
-docker build -t clonedproject -t koskinentht/clonedproject:latest ./clonedproject
-docker push koskinentht/clonedproject:latest
+docker build -t clonedproject:1.0 ./clonedproject
+docker tag clonedproject:1.0 koskinentht/clonedproject:1.0
+docker push koskinentht/clonedproject:1.0

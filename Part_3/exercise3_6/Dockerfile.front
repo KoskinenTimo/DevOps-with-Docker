@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:14-alpine as build-stage
 
 EXPOSE 5000
 
@@ -9,8 +9,15 @@ COPY . .
 ENV REACT_APP_BACKEND_URL=http://localhost:8080/api
 
 RUN npm install && \
-    npm install -g serve &&\
-    npm run build && \
+    npm run build
+
+FROM node:14-alpine
+
+WORKDIR /usr/src/app
+
+COPY --from=build-stage /usr/src/app/build /usr/src/app/build
+
+RUN npm install -g serve && \
     adduser -S appuser && \
     chown appuser .
 

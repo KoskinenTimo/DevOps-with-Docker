@@ -1,0 +1,5 @@
+Using additional stage to remove files not used in the final serve stage and using node:14-alpine:
+Front: 344.48MB => 126.82MB
+
+Using FROM scratch:
+Back: 463.78MB => 18.97MB

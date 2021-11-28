@@ -1,0 +1,3 @@
+Dockerfiles are for https://github.com/KoskinenTimo/Unit7-React-Gallery-App
+
+Image size went from 404.43MB to 120.63MB and user is non-root.
